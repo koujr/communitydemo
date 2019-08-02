@@ -1,6 +1,10 @@
 package life.kou.community.dto;
 
 public class GithubUser {
+    private Long id;
+    private String name;
+    private String bio;
+
     public Long getId() {
         return id;
     }
@@ -24,9 +28,4 @@ public class GithubUser {
     public void setBio(String bio) {
         this.bio = bio;
     }
-
-    private Long id;
-    private String name;
-    private String bio;
-
 }
