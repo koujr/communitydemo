@@ -1,0 +1,14 @@
+/*整体灰色*/
+body{
+    background-color: #efefef;
+}
+/*发布板块白色，且边距30px*/
+.main{
+    background-color: white;
+    margin: 30px;
+}
+/*提交按钮靠右且下边距15px*/
+.btn-publish{
+    float:right;
+    margin-bottom: 15px;
+}
