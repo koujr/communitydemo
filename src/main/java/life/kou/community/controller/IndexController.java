@@ -17,7 +17,7 @@ public class IndexController {
 
     @GetMapping("/")
     public String index(HttpServletRequest request) {
-        //获取cookies
+        //获取用户cookies
         Cookie[] cookies = request.getCookies();
         if(cookies != null){
             for (Cookie cookie : cookies) {
