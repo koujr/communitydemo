@@ -12,6 +12,8 @@
 [SpringBoot集成Mybatis](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-sql.html#boot-features-connect-to-production-database)
 
 [集成flyway](https://flywaydb.org/)
+
+[集成Lombok](https://www.projectlombok.org/)
 ## 工具
 [git下载](https://git-scm.com/ )
 
