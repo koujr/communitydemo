@@ -1,6 +1,6 @@
 package life.kou.community.controller;
 
-import life.kou.community.dto.AccessTokenDto;
+import life.kou.community.dto.AccessTokenDTO;
 import life.kou.community.dto.GithubUser;
 import life.kou.community.mapper.UserMapper;
 import life.kou.community.model.User;
@@ -36,7 +36,7 @@ public class AuthorizeController {
     public String callback(@RequestParam(name = "code") String code,
                             @RequestParam(name = "state") String state,
                             HttpServletResponse response){
-        AccessTokenDto accessTokenDto = new AccessTokenDto();
+        AccessTokenDTO accessTokenDto = new AccessTokenDTO();
         accessTokenDto.setClient_id(clientId);
         accessTokenDto.setClient_secret(clientSecret);
         accessTokenDto.setCode(code);

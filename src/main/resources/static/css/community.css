@@ -12,3 +12,14 @@ body{
     float:right;
     margin-bottom: 15px;
 }
+/*主页头像大小修改*/
+.media-object{
+    width:42px;
+    height:42px;
+}
+/*回复，浏览，时间*/
+.text-desc{
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}

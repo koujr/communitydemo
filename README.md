@@ -14,6 +14,8 @@
 [集成flyway](https://flywaydb.org/)
 
 [集成Lombok](https://www.projectlombok.org/)
+
+[thymeleaf遍历文档](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#using-theach)
 ## 工具
 [git下载](https://git-scm.com/ )
 
